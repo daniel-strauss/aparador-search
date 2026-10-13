@@ -1,0 +1,1477 @@
+{
+ "default": "belleza-test",
+ "engines": [
+  {
+   "id": "makeup-1",
+   "cx": "430b4621496ef430c",
+   "market": "mx",
+   "types": [
+    "makeup"
+   ],
+   "brands": [
+    {
+     "name": "Maybelline New York",
+     "domain": "maybelline.com.mx"
+    },
+    {
+     "name": "L'Oréal Paris",
+     "domain": "lorealparis.com.mx"
+    },
+    {
+     "name": "NYX Professional Makeup",
+     "domain": "nyxcosmetics.com.mx"
+    },
+    {
+     "name": "Bissú",
+     "domain": "bissu.com"
+    },
+    {
+     "name": "Revlon",
+     "domain": "revlon.com"
+    },
+    {
+     "name": "e.l.f. Cosmetics",
+     "domain": "elfcosmetics.com"
+    },
+    {
+     "name": "Beauty Creations",
+     "domain": "beautycreationscosmetics.com"
+    },
+    {
+     "name": "Wet n Wild",
+     "domain": "wetnwildbeauty.com"
+    },
+    {
+     "name": "Italia Deluxe",
+     "domain": "italiadeluxemakeup.com"
+    },
+    {
+     "name": "Catrice",
+     "domain": "catrice.eu"
+    },
+    {
+     "name": "M.A.C Cosmetics",
+     "domain": "maccosmetics.com"
+    },
+    {
+     "name": "Sephora Collection",
+     "domain": "sephora.com.mx"
+    },
+    {
+     "name": "Dior Makeup",
+     "domain": "dior.com"
+    },
+    {
+     "name": "Charlotte Tilbury",
+     "domain": "charlottetilbury.com"
+    },
+    {
+     "name": "Rare Beauty",
+     "domain": "rarebeauty.com"
+    },
+    {
+     "name": "Fenty Beauty",
+     "domain": "fentybeauty.com"
+    },
+    {
+     "name": "Benefit Cosmetics",
+     "domain": "benefitcosmetics.com"
+    },
+    {
+     "name": "Anastasia Beverly Hills",
+     "domain": "anastasiabeverlyhills.com"
+    },
+    {
+     "name": "Huda Beauty",
+     "domain": "hudabeauty.com"
+    },
+    {
+     "name": "Too Faced",
+     "domain": "toofaced.com"
+    },
+    {
+     "name": "Urban Decay",
+     "domain": "urbandecay.com"
+    },
+    {
+     "name": "Lancôme",
+     "domain": "lancome.com.mx"
+    },
+    {
+     "name": "Chanel Beauty",
+     "domain": "chanel.com"
+    },
+    {
+     "name": "Guerlain",
+     "domain": "guerlain.com"
+    },
+    {
+     "name": "Givenchy Beauty",
+     "domain": "givenchybeauty.com"
+    },
+    {
+     "name": "Laura Mercier",
+     "domain": "lauramercier.com"
+    },
+    {
+     "name": "Clinique",
+     "domain": "clinique.com.mx"
+    },
+    {
+     "name": "Estée Lauder",
+     "domain": "esteelauder.com"
+    },
+    {
+     "name": "Kylie Cosmetics",
+     "domain": "kyliecosmetics.com"
+    },
+    {
+     "name": "Tom Ford Beauty",
+     "domain": "tomfordbeauty.com"
+    },
+    {
+     "name": "Natasha Denona",
+     "domain": "natashadenona.com"
+    },
+    {
+     "name": "Makeup By Mario",
+     "domain": "makeupbymario.com"
+    },
+    {
+     "name": "Patrick Ta",
+     "domain": "patrickta.com"
+    },
+    {
+     "name": "Smashbox",
+     "domain": "smashbox.com"
+    },
+    {
+     "name": "ILIA",
+     "domain": "iliabeauty.com"
+    },
+    {
+     "name": "Glossier",
+     "domain": "glossier.com"
+    },
+    {
+     "name": "IT Cosmetics",
+     "domain": "itcosmetics.com"
+    },
+    {
+     "name": "Iconic London",
+     "domain": "iconiclondoninc.com"
+    },
+    {
+     "name": "Nudestix",
+     "domain": "nudestix.com"
+    },
+    {
+     "name": "One/Size",
+     "domain": "onesizebeauty.com"
+    },
+    {
+     "name": "Beautyblender",
+     "domain": "beautyblender.com"
+    },
+    {
+     "name": "BareMinerals",
+     "domain": "bareminerals.com"
+    },
+    {
+     "name": "Stila",
+     "domain": "stilacosmetics.com"
+    },
+    {
+     "name": "Tarte Cosmetics",
+     "domain": "tartecosmetics.com"
+    },
+    {
+     "name": "Morphe",
+     "domain": "morphe.com"
+    },
+    {
+     "name": "ColourPop",
+     "domain": "colourpop.com"
+    },
+    {
+     "name": "Milani Cosmetics",
+     "domain": "milanicosmetics.com"
+    },
+    {
+     "name": "L.A. Girl",
+     "domain": "lagirlusa.com"
+    },
+    {
+     "name": "L.A. Colors",
+     "domain": "lacolors.com"
+    },
+    {
+     "name": "Physicians Formula",
+     "domain": "physiciansformula.com"
+    }
+   ]
+  },
+  {
+   "id": "makeup-2",
+   "cx": "745744c3ba8444a0e",
+   "market": "mx",
+   "types": [
+    "makeup"
+   ],
+   "brands": [
+    {
+     "name": "Hard Candy",
+     "domain": "hardcandy.com"
+    },
+    {
+     "name": "Makeup Revolution",
+     "domain": "revolutionbeauty.com"
+    },
+    {
+     "name": "KIKO Milano",
+     "domain": "kikocosmetics.com"
+    },
+    {
+     "name": "Juvia’s Place",
+     "domain": "juviasplace.com"
+    },
+    {
+     "name": "Lime Crime",
+     "domain": "limecrime.com"
+    },
+    {
+     "name": "Danessa Myricks Beauty",
+     "domain": "danessamyricksbeauty.com"
+    },
+    {
+     "name": "Pat McGrath Labs",
+     "domain": "patmcgrath.com"
+    },
+    {
+     "name": "TOWER 28 Beauty",
+     "domain": "tower28beauty.com"
+    },
+    {
+     "name": "Saie",
+     "domain": "saiehello.com"
+    },
+    {
+     "name": "Kosas",
+     "domain": "kosas.com"
+    },
+    {
+     "name": "Merit",
+     "domain": "meritbeauty.com"
+    },
+    {
+     "name": "Westman Atelier",
+     "domain": "westman-atelier.com"
+    },
+    {
+     "name": "Surratt Beauty",
+     "domain": "surrattbeauty.com"
+    },
+    {
+     "name": "Laura Geller",
+     "domain": "laurageller.com"
+    },
+    {
+     "name": "Pür",
+     "domain": "purcosmetics.com"
+    },
+    {
+     "name": "Buxom",
+     "domain": "buxomcosmetics.com"
+    },
+    {
+     "name": "Moira Cosmetics",
+     "domain": "moirabeauty.com"
+    },
+    {
+     "name": "J.Cat Beauty",
+     "domain": "jcatbeauty.com"
+    },
+    {
+     "name": "Saniye",
+     "domain": "saniye.com.mx"
+    },
+    {
+     "name": "Yuya Cosmetics",
+     "domain": "republiccosmetics.com"
+    },
+    {
+     "name": "Pink Up",
+     "domain": "pinkup.mx"
+    },
+    {
+     "name": "Sarelly",
+     "domain": "sarelly.com"
+    },
+    {
+     "name": "Ahal",
+     "domain": "ahal.mx"
+    },
+    {
+     "name": "Adara Paris",
+     "domain": "adaraparis.com.mx"
+    },
+    {
+     "name": "Prosa",
+     "domain": "prosa.com.mx"
+    },
+    {
+     "name": "Republic Cosmetics",
+     "domain": "republiccosmetics.com"
+    },
+    {
+     "name": "Bourjois",
+     "domain": "bourjois.com"
+    },
+    {
+     "name": "MUA Makeup Academy",
+     "domain": "muastore.co.uk"
+    },
+    {
+     "name": "Barry M",
+     "domain": "barrym.com"
+    },
+    {
+     "name": "Models Own",
+     "domain": "modelsowned.com"
+    },
+    {
+     "name": "BH Cosmetics",
+     "domain": "bhcosmetics.com"
+    },
+    {
+     "name": "Ofra Cosmetics",
+     "domain": "ofracosmetics.com"
+    },
+    {
+     "name": "Jouer Cosmetics",
+     "domain": "jouercosmetics.com"
+    },
+    {
+     "name": "Viseart",
+     "domain": "viseartparis.com"
+    },
+    {
+     "name": "Kryolan",
+     "domain": "kryolan.com"
+    },
+    {
+     "name": "Mehron",
+     "domain": "mehron.com"
+    },
+    {
+     "name": "Beauty Treats",
+     "domain": "beauty-treats.com"
+    }
+   ]
+  },
+  {
+   "id": "care-1",
+   "cx": "b6c676b60bd044d4e",
+   "market": "mx",
+   "types": [
+    "skincare",
+    "haircare",
+    "bodycare"
+   ],
+   "brands": [
+    {
+     "name": "NIVEA",
+     "domain": "nivea.com.mx"
+    },
+    {
+     "name": "CeraVe",
+     "domain": "cerave.mx"
+    },
+    {
+     "name": "Neutrogena",
+     "domain": "neutrogena.com.mx"
+    },
+    {
+     "name": "La Roche-Posay",
+     "domain": "laroche-posay.com.mx"
+    },
+    {
+     "name": "Vichy",
+     "domain": "vichy.com.mx"
+    },
+    {
+     "name": "Bioderma",
+     "domain": "bioderma.mx/es"
+    },
+    {
+     "name": "Avène",
+     "domain": "eauthermaleavene.com.mx"
+    },
+    {
+     "name": "Cetaphil",
+     "domain": "cetaphil.com.mx"
+    },
+    {
+     "name": "Olay",
+     "domain": "olay.com"
+    },
+    {
+     "name": "Lubriderm",
+     "domain": "lubriderm.com.mx"
+    },
+    {
+     "name": "Jergens",
+     "domain": "jergens.com"
+    },
+    {
+     "name": "Palmer’s",
+     "domain": "palmers.com"
+    },
+    {
+     "name": "Teatrical",
+     "domain": "mygenommalab.com/es/collections/teatrical"
+    },
+    {
+     "name": "Head & Shoulders",
+     "domain": "headandshoulders-la.com"
+    },
+    {
+     "name": "Pantene",
+     "domain": "pantene.com.mx"
+    },
+    {
+     "name": "Elvive",
+     "domain": "lorealparis.com.mx"
+    },
+    {
+     "name": "Tío Nacho",
+     "domain": "marcas.genommalab.com/tn"
+    },
+    {
+     "name": "Kérastase",
+     "domain": "kerastase.com.mx"
+    },
+    {
+     "name": "Redken",
+     "domain": "redken.com.mx"
+    },
+    {
+     "name": "Matrix",
+     "domain": "matrix.com"
+    },
+    {
+     "name": "Olaplex",
+     "domain": "olaplex.com"
+    },
+    {
+     "name": "Moroccanoil",
+     "domain": "moroccanoil.com"
+    },
+    {
+     "name": "Aveda",
+     "domain": "aveda.com"
+    },
+    {
+     "name": "Bumble and bumble",
+     "domain": "bumbleandbumble.com"
+    },
+    {
+     "name": "Briogeo",
+     "domain": "briogeohair.com"
+    },
+    {
+     "name": "Amika",
+     "domain": "loveamika.com"
+    },
+    {
+     "name": "Living Proof",
+     "domain": "livingproof.com"
+    },
+    {
+     "name": "K18",
+     "domain": "k18hair.com"
+    },
+    {
+     "name": "OUAI",
+     "domain": "theouai.com"
+    },
+    {
+     "name": "Maui Moisture",
+     "domain": "mauimoisture.com"
+    },
+    {
+     "name": "OGX",
+     "domain": "ogxbeauty.com"
+    },
+    {
+     "name": "Cantu",
+     "domain": "cantubeauty.com"
+    },
+    {
+     "name": "Mielle Organics",
+     "domain": "mielleorganics.com"
+    },
+    {
+     "name": "TGIN",
+     "domain": "tginatural.com"
+    },
+    {
+     "name": "Aunt Jackie’s",
+     "domain": "auntjackiescurlsandcoils.com"
+    },
+    {
+     "name": "Creme of Nature",
+     "domain": "cremeofnature.com"
+    },
+    {
+     "name": "African Pride",
+     "domain": "africanpridehair.com"
+    },
+    {
+     "name": "Design Essentials",
+     "domain": "designessentials.com"
+    },
+    {
+     "name": "Clairol",
+     "domain": "clairol.com"
+    },
+    {
+     "name": "Nice’n Easy",
+     "domain": "clairol.com"
+    },
+    {
+     "name": "Just For Men",
+     "domain": "justformen.com"
+    },
+    {
+     "name": "Color Wow",
+     "domain": "colorwowhair.com"
+    },
+    {
+     "name": "John Frieda",
+     "domain": "johnfrieda.com"
+    },
+    {
+     "name": "Aussie",
+     "domain": "aussie.com"
+    },
+    {
+     "name": "Selsun",
+     "domain": "selsunblue.com/en-us"
+    },
+    {
+     "name": "The Ordinary",
+     "domain": "theordinary.com"
+    },
+    {
+     "name": "The Inkey List",
+     "domain": "theinkeylist.com"
+    },
+    {
+     "name": "Kiehl’s",
+     "domain": "kiehls.com.mx"
+    },
+    {
+     "name": "Laneige",
+     "domain": "laneige.com"
+    },
+    {
+     "name": "Innisfree",
+     "domain": "innisfree.com"
+    },
+    {
+     "name": "COSRX",
+     "domain": "cosrx.com"
+    }
+   ]
+  },
+  {
+   "id": "care-2",
+   "cx": "f0e9822cea26b4894",
+   "market": "mx",
+   "types": [
+    "skincare",
+    "haircare",
+    "bodycare"
+   ],
+   "brands": [
+    {
+     "name": "Beauty of Joseon",
+     "domain": "beautyofjoseon.com"
+    },
+    {
+     "name": "Anua",
+     "domain": "anua.kr"
+    },
+    {
+     "name": "SKIN1004",
+     "domain": "skin1004.com"
+    },
+    {
+     "name": "Medicube",
+     "domain": "medicube.us"
+    },
+    {
+     "name": "Dr. Jart+",
+     "domain": "drjart.com"
+    },
+    {
+     "name": "Glow Recipe",
+     "domain": "glowrecipe.com"
+    },
+    {
+     "name": "Drunk Elephant",
+     "domain": "drunkelephant.com"
+    },
+    {
+     "name": "Sunday Riley",
+     "domain": "sundayriley.com"
+    },
+    {
+     "name": "Caudalie",
+     "domain": "caudalie.com"
+    },
+    {
+     "name": "Nuxe",
+     "domain": "nuxe.com"
+    },
+    {
+     "name": "Dermalogica",
+     "domain": "dermalogica.com"
+    },
+    {
+     "name": "Murad",
+     "domain": "murad.com"
+    },
+    {
+     "name": "Peter Thomas Roth",
+     "domain": "peterthomasroth.com"
+    },
+    {
+     "name": "Origins",
+     "domain": "origins.com"
+    },
+    {
+     "name": "AESTURA",
+     "domain": "aestura.com"
+    },
+    {
+     "name": "VT Cosmetics",
+     "domain": "vt-cosmetics.com"
+    },
+    {
+     "name": "Tocobo",
+     "domain": "tocobo.us"
+    },
+    {
+     "name": "Round Lab",
+     "domain": "roundlab.com"
+    },
+    {
+     "name": "Some By Mi",
+     "domain": "somebymi.com"
+    },
+    {
+     "name": "Etude",
+     "domain": "etude.com"
+    }
+   ]
+  },
+  {
+   "id": "fragrance-1",
+   "cx": "",
+   "market": "mx",
+   "types": [
+    "fragrance"
+   ],
+   "brands": [
+    {
+     "name": "Valentino",
+     "domain": "valentino.com"
+    },
+    {
+     "name": "Kayali",
+     "domain": "kayali.com"
+    },
+    {
+     "name": "Prada",
+     "domain": "prada-beauty.com"
+    },
+    {
+     "name": "Paris Hilton",
+     "domain": "parishiltonfragrances.com"
+    },
+    {
+     "name": "Mugler",
+     "domain": "mugler.com"
+    },
+    {
+     "name": "Perry Ellis",
+     "domain": "perryellis.com"
+    },
+    {
+     "name": "Nautica",
+     "domain": "nautica.com"
+    },
+    {
+     "name": "Afnan",
+     "domain": "afnan.com"
+    },
+    {
+     "name": "Rasasi",
+     "domain": "rasasi.com"
+    },
+    {
+     "name": "Al Wataniah",
+     "domain": "alwataniah.com"
+    },
+    {
+     "name": "Guess",
+     "domain": "guess.com"
+    },
+    {
+     "name": "Armaf",
+     "domain": "armaf.com"
+    },
+    {
+     "name": "Parfums de Marly",
+     "domain": "parfums-de-marly.com"
+    },
+    {
+     "name": "Salvatore Ferragamo",
+     "domain": "ferragamo.com"
+    },
+    {
+     "name": "Nina Ricci",
+     "domain": "ninaricci.com"
+    },
+    {
+     "name": "Viktor&Rolf",
+     "domain": "viktor-rolf.com"
+    },
+    {
+     "name": "Bharara",
+     "domain": "bhararabeauty.com"
+    },
+    {
+     "name": "Ahmed Al Maghribi",
+     "domain": "ahmedalmaghribi.com"
+    },
+    {
+     "name": "Lattafa",
+     "domain": "lattafa.com"
+    },
+    {
+     "name": "Tommy Hilfiger",
+     "domain": "tommy.com"
+    },
+    {
+     "name": "Davidoff",
+     "domain": "davidoff.com"
+    },
+    {
+     "name": "Montale",
+     "domain": "montaleparfums.com"
+    },
+    {
+     "name": "Ajmal",
+     "domain": "ajmalperfume.com"
+    },
+    {
+     "name": "Al Haramain",
+     "domain": "alharamainperfumes.com"
+    },
+    {
+     "name": "Swiss Arabian",
+     "domain": "swissarabian.com"
+    },
+    {
+     "name": "Riiffs",
+     "domain": "riiffsperfumes.com"
+    },
+    {
+     "name": "Liz Claiborne",
+     "domain": "lizclaiborne.com"
+    },
+    {
+     "name": "Jean Marc Paris",
+     "domain": "jeanmarcparis.com"
+    },
+    {
+     "name": "Ferrioni",
+     "domain": "ferrioni.com"
+    },
+    {
+     "name": "Victorinox",
+     "domain": "victorinox.com"
+    },
+    {
+     "name": "Hermès",
+     "domain": "hermes.com"
+    },
+    {
+     "name": "Benetton",
+     "domain": "benetton.com"
+    },
+    {
+     "name": "Bath & Body Works",
+     "domain": "bathandbodyworks.com"
+    },
+    {
+     "name": "Oscar de la Renta",
+     "domain": "oscardelarenta.com"
+    },
+    {
+     "name": "Montblanc",
+     "domain": "montblanc.com"
+    }
+   ]
+  },
+  {
+   "id": "direct-1",
+   "cx": "",
+   "market": "mx",
+   "types": [],
+   "brands": [
+    {
+     "name": "Avon",
+     "domain": "avon.mx"
+    },
+    {
+     "name": "Natura",
+     "domain": "natura.com.mx"
+    },
+    {
+     "name": "Jafra",
+     "domain": "jafra.com.mx"
+    },
+    {
+     "name": "Yanbal",
+     "domain": "yanbal.com/mx"
+    },
+    {
+     "name": "Mary Kay",
+     "domain": "marykay.com.mx"
+    },
+    {
+     "name": "Betterware",
+     "domain": "betterware.com.mx"
+    },
+    {
+     "name": "Tupperware",
+     "domain": "tupperware.com.mx"
+    },
+    {
+     "name": "Andrea",
+     "domain": "mx.andrea.com"
+    },
+    {
+     "name": "Price Shoes",
+     "domain": "priceshoes.com"
+    },
+    {
+     "name": "Cklass",
+     "domain": "cklass.com"
+    },
+    {
+     "name": "Vianney",
+     "domain": "vianney.com.mx"
+    },
+    {
+     "name": "Zermat",
+     "domain": "zermat.com.mx"
+    },
+    {
+     "name": "Omnilife",
+     "domain": "omnilife.com"
+    },
+    {
+     "name": "Amway",
+     "domain": "amway.com.mx"
+    },
+    {
+     "name": "Oriflame",
+     "domain": "mx.oriflame.com"
+    },
+    {
+     "name": "Stanhome",
+     "domain": "stanhome.com.mx"
+    },
+    {
+     "name": "Leonisa",
+     "domain": "leonisa.com"
+    },
+    {
+     "name": "Nu Skin",
+     "domain": "nuskin.com/es_mx"
+    },
+    {
+     "name": "Royal Prestige",
+     "domain": "royalprestige.com"
+    },
+    {
+     "name": "Scentsy",
+     "domain": "scentsy.com"
+    },
+    {
+     "name": "Atomy",
+     "domain": "mx.atomy.com"
+    },
+    {
+     "name": "Immunotec",
+     "domain": "immunotec.com"
+    },
+    {
+     "name": "Isagenix",
+     "domain": "isagenix.com"
+    },
+    {
+     "name": "Nature’s Sunshine",
+     "domain": "naturessunshine.com"
+    },
+    {
+     "name": "Neora",
+     "domain": "neora.com"
+    },
+    {
+     "name": "Mannatech",
+     "domain": "mx.mannatech.com"
+    },
+    {
+     "name": "Partner.Co",
+     "domain": "partner.co"
+    },
+    {
+     "name": "Young Living",
+     "domain": "youngliving.com/es_mx"
+    },
+    {
+     "name": "Pakar",
+     "domain": "pakar.com"
+    },
+    {
+     "name": "Kaiak",
+     "domain": "natura.com.mx"
+    },
+    {
+     "name": "Ekos",
+     "domain": "natura.com.mx"
+    },
+    {
+     "name": "Tododia",
+     "domain": "natura.com.mx"
+    },
+    {
+     "name": "Una",
+     "domain": "natura.com.mx"
+    },
+    {
+     "name": "Essencial",
+     "domain": "natura.com.mx"
+    },
+    {
+     "name": "Humor",
+     "domain": "natura.com.mx"
+    },
+    {
+     "name": "Chronos",
+     "domain": "natura.com.mx"
+    },
+    {
+     "name": "Lumina",
+     "domain": "natura.com.mx"
+    },
+    {
+     "name": "Faces",
+     "domain": "natura.com.mx"
+    },
+    {
+     "name": "Mamá y Bebé Natura",
+     "domain": "natura.com.mx"
+    },
+    {
+     "name": "Biografia",
+     "domain": "natura.com.mx"
+    },
+    {
+     "name": "Águas",
+     "domain": "natura.com.mx"
+    },
+    {
+     "name": "Erva Doce",
+     "domain": "natura.com.mx"
+    },
+    {
+     "name": "Artistry",
+     "domain": "amway.com.mx"
+    },
+    {
+     "name": "Nutrilite",
+     "domain": "amway.com.mx"
+    },
+    {
+     "name": "Amway Home",
+     "domain": "amway.com.mx"
+    },
+    {
+     "name": "Satinique",
+     "domain": "amway.com.mx"
+    },
+    {
+     "name": "G&H",
+     "domain": "amway.com.mx"
+    },
+    {
+     "name": "Glister",
+     "domain": "amway.com.mx"
+    },
+    {
+     "name": "XS",
+     "domain": "amway.com.mx"
+    },
+    {
+     "name": "Anew",
+     "domain": "avon.mx"
+    },
+    {
+     "name": "Far Away",
+     "domain": "avon.mx"
+    },
+    {
+     "name": "Encanto",
+     "domain": "avon.mx"
+    },
+    {
+     "name": "Color Trend",
+     "domain": "avon.mx"
+    },
+    {
+     "name": "Advance Techniques",
+     "domain": "avon.mx"
+    },
+    {
+     "name": "Avon Care",
+     "domain": "avon.mx"
+    },
+    {
+     "name": "Mark",
+     "domain": "avon.mx"
+    },
+    {
+     "name": "Royal Jelly",
+     "domain": "jafra.com.mx"
+    },
+    {
+     "name": "JAFRA Fragrances",
+     "domain": "jafra.com.mx"
+    },
+    {
+     "name": "JAFRA Beauty",
+     "domain": "jafra.com.mx"
+    },
+    {
+     "name": "Spa by JAFRA",
+     "domain": "jafra.com.mx"
+    },
+    {
+     "name": "Seytú",
+     "domain": "omnilife.com"
+    },
+    {
+     "name": "PowerMaker",
+     "domain": "omnilife.com"
+    },
+    {
+     "name": "Uzo",
+     "domain": "omnilife.com"
+    },
+    {
+     "name": "Betterware Gurmy",
+     "domain": "betterware.com.mx"
+    },
+    {
+     "name": "Practimuebles",
+     "domain": "betterware.com.mx"
+    },
+    {
+     "name": "Betterware Contigo",
+     "domain": "betterware.com.mx"
+    },
+    {
+     "name": "Betterware Bienestar",
+     "domain": "betterware.com.mx"
+    },
+    {
+     "name": "MicroPro",
+     "domain": "tupperware.com.mx"
+    },
+    {
+     "name": "UltraPro",
+     "domain": "tupperware.com.mx"
+    },
+    {
+     "name": "Eco+",
+     "domain": "tupperware.com.mx"
+    }
+   ]
+  },
+  {
+   "id": "europe-1",
+   "cx": "84bfa1152d7ec4655",
+   "market": "europe",
+   "types": [],
+   "brands": [
+    {
+     "name": "NIVEA",
+     "domain": "nivea.de"
+    },
+    {
+     "name": "Eucerin",
+     "domain": "eucerin.de"
+    },
+    {
+     "name": "Labello",
+     "domain": "labello.de"
+    },
+    {
+     "name": "Hansaplast",
+     "domain": "hansaplast.de"
+    },
+    {
+     "name": "Dove",
+     "domain": "dove.com"
+    },
+    {
+     "name": "Rexona",
+     "domain": "rexona.com"
+    },
+    {
+     "name": "Axe",
+     "domain": "axe.com"
+    },
+    {
+     "name": "Schwarzkopf (Gliss · Schauma · Got2b · Taft)",
+     "domain": "schwarzkopf.de"
+    },
+    {
+     "name": "Syoss",
+     "domain": "syoss.de"
+    },
+    {
+     "name": "L'Oréal Paris",
+     "domain": "loreal-paris.de"
+    },
+    {
+     "name": "Garnier",
+     "domain": "garnier.de"
+    },
+    {
+     "name": "Maybelline",
+     "domain": "maybelline.de"
+    },
+    {
+     "name": "La Roche-Posay",
+     "domain": "larocheposay.de"
+    },
+    {
+     "name": "Vichy",
+     "domain": "vichy.de"
+    },
+    {
+     "name": "CeraVe",
+     "domain": "cerave.de"
+    },
+    {
+     "name": "essence",
+     "domain": "essence.eu"
+    },
+    {
+     "name": "Catrice",
+     "domain": "catrice.eu"
+    },
+    {
+     "name": "Sebamed",
+     "domain": "sebamed.de"
+    },
+    {
+     "name": "Wella",
+     "domain": "wella.com"
+    },
+    {
+     "name": "Rituals",
+     "domain": "rituals.com"
+    },
+    {
+     "name": "Weleda",
+     "domain": "weleda.de"
+    },
+    {
+     "name": "Lavera",
+     "domain": "lavera.de"
+    },
+    {
+     "name": "Kneipp",
+     "domain": "kneipp.com"
+    },
+    {
+     "name": "Bioderma",
+     "domain": "bioderma.de"
+    },
+    {
+     "name": "Neutrogena",
+     "domain": "neutrogena.de"
+    },
+    {
+     "name": "Head & Shoulders",
+     "domain": "headandshoulders.de"
+    },
+    {
+     "name": "Oral-B",
+     "domain": "oralb.de"
+    },
+    {
+     "name": "Colgate",
+     "domain": "colgate.de"
+    },
+    {
+     "name": "Palmolive",
+     "domain": "palmolive.de"
+    },
+    {
+     "name": "Wilkinson Sword",
+     "domain": "wilkinsonsword.de"
+    },
+    {
+     "name": "Gillette",
+     "domain": "gillette.de"
+    },
+    {
+     "name": "Rimmel",
+     "domain": "rimmellondon.com"
+    },
+    {
+     "name": "Bourjois",
+     "domain": "bourjois.fr"
+    },
+    {
+     "name": "Yves Rocher",
+     "domain": "yves-rocher.de"
+    }
+   ]
+  },
+  {
+   "id": "belleza-test",
+   "cx": "06c6274428fd94c73",
+   "market": "mx",
+   "types": [
+    "makeup",
+    "skincare",
+    "haircare",
+    "bodycare",
+    "fragrance"
+   ],
+   "brands": [
+    {
+     "name": "NIVEA",
+     "domain": "nivea.com.mx"
+    },
+    {
+     "name": "Maybelline New York",
+     "domain": "maybelline.com.mx"
+    },
+    {
+     "name": "CeraVe",
+     "domain": "cerave.mx"
+    },
+    {
+     "name": "L'Oréal Paris",
+     "domain": "loreal-paris.com.mx"
+    },
+    {
+     "name": "Neutrogena",
+     "domain": "neutrogena.com.mx"
+    },
+    {
+     "name": "Bissú",
+     "domain": "bissu.com"
+    },
+    {
+     "name": "La Roche-Posay",
+     "domain": "laroche-posay.com.mx"
+    },
+    {
+     "name": "Revlon",
+     "domain": "revlon.com"
+    },
+    {
+     "name": "Vichy",
+     "domain": "vichy.com.mx"
+    },
+    {
+     "name": "e.l.f. Cosmetics",
+     "domain": "elfcosmetics.com"
+    },
+    {
+     "name": "Cetaphil",
+     "domain": "cetaphil.com.mx"
+    },
+    {
+     "name": "Beauty Creations",
+     "domain": "beautycreationscosmetics.com"
+    },
+    {
+     "name": "Lubriderm",
+     "domain": "lubriderm.com.mx"
+    },
+    {
+     "name": "Wet n Wild",
+     "domain": "wetnwildbeauty.com"
+    },
+    {
+     "name": "Jergens",
+     "domain": "jergens.com"
+    },
+    {
+     "name": "Italia Deluxe",
+     "domain": "italiadeluxemakeup.com"
+    },
+    {
+     "name": "Palmer’s",
+     "domain": "palmers.com"
+    },
+    {
+     "name": "Catrice",
+     "domain": "catrice.eu"
+    },
+    {
+     "name": "Pantene",
+     "domain": "pantenela.com"
+    },
+    {
+     "name": "M.A.C Cosmetics",
+     "domain": "maccosmetics.com"
+    },
+    {
+     "name": "Kérastase",
+     "domain": "kerastase.com.mx"
+    },
+    {
+     "name": "Sephora Collection",
+     "domain": "sephora.com.mx"
+    },
+    {
+     "name": "Redken",
+     "domain": "redken.com.mx"
+    },
+    {
+     "name": "Charlotte Tilbury",
+     "domain": "charlottetilbury.com"
+    },
+    {
+     "name": "Matrix",
+     "domain": "matrix.com"
+    },
+    {
+     "name": "Rare Beauty",
+     "domain": "rarebeauty.com"
+    },
+    {
+     "name": "Olaplex",
+     "domain": "olaplex.com"
+    },
+    {
+     "name": "Fenty Beauty",
+     "domain": "fentybeauty.com"
+    },
+    {
+     "name": "Moroccanoil",
+     "domain": "moroccanoil.com"
+    },
+    {
+     "name": "Anastasia Beverly Hills",
+     "domain": "anastasiabeverlyhills.com"
+    },
+    {
+     "name": "Aveda",
+     "domain": "aveda.com"
+    },
+    {
+     "name": "Huda Beauty",
+     "domain": "hudabeauty.com"
+    },
+    {
+     "name": "Bumble and bumble",
+     "domain": "bumbleandbumble.com"
+    },
+    {
+     "name": "Too Faced",
+     "domain": "toofaced.com"
+    },
+    {
+     "name": "Briogeo",
+     "domain": "briogeohair.com"
+    },
+    {
+     "name": "Laura Mercier",
+     "domain": "lauramercier.com"
+    },
+    {
+     "name": "Amika",
+     "domain": "loveamika.com"
+    },
+    {
+     "name": "Clinique",
+     "domain": "clinique.com.mx"
+    },
+    {
+     "name": "Living Proof",
+     "domain": "livingproof.com"
+    },
+    {
+     "name": "Kylie Cosmetics",
+     "domain": "kyliecosmetics.com"
+    },
+    {
+     "name": "K18",
+     "domain": "k18hair.com"
+    },
+    {
+     "name": "Tom Ford Beauty",
+     "domain": "tomfordbeauty.com"
+    },
+    {
+     "name": "OUAI",
+     "domain": "theouai.com"
+    },
+    {
+     "name": "Natasha Denona",
+     "domain": "natashadenona.com"
+    },
+    {
+     "name": "Maui Moisture",
+     "domain": "mauimoisture.com"
+    },
+    {
+     "name": "Makeup By Mario",
+     "domain": "makeupbymario.com"
+    },
+    {
+     "name": "OGX",
+     "domain": "ogxbeauty.com"
+    },
+    {
+     "name": "Patrick Ta",
+     "domain": "patrickta.com"
+    },
+    {
+     "name": "Cantu",
+     "domain": "cantubeauty.com"
+    },
+    {
+     "name": "Smashbox",
+     "domain": "smashbox.com"
+    }
+   ]
+  }
+ ]
+}

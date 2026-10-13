@@ -1,0 +1,86 @@
+<!doctype html>
+<!-- Aparador's picture search: Google's Programmable Search Element (image search on the brand sites the
+     engine lists), opened by the shop app with ?q=<product name>. Google's own search box and results,
+     unchanged, with its ads and attribution (Programmable Search terms 1.4(a), 1.6, 2.3). A tap shows Google's
+     own preview, whose link opens the brand page; the seller chooses the picture there, on the brand's own
+     site, so nothing Aparador keeps comes from Google's results (1.3, 1.4(l)). -->
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aparador · Imágenes de marcas</title>
+<style>
+  body { margin: 0; padding: 8px; font-family: sans-serif; background: #fff9f2; }
+</style>
+<script>
+  const params = new URLSearchParams(location.search);
+  // Transparent backgrounds first (for pictures to stand on a page's shapes); when nothing has one, the same search
+  // once more with any background. Finding a scanned product (?transparent=0), any background from the start.
+  let transparent = params.get('transparent') !== '0';
+  function render() {
+    document.getElementById('search').innerHTML = '';
+    google.search.cse.element.render({ div: 'search', tag: 'search', gname: 'pictures',
+      attributes: { defaultToImageSearch: true, disableWebSearch: true, enableImageSearch: true,
+        image_colortype: transparent ? 'trans' : '', safeSearch: 'active', enableHistory: false } });
+    const q = params.get('q');
+    if (q) google.search.cse.element.getElement('pictures').execute(q);
+  }
+  window.__gcse = {
+    parsetags: 'explicit',
+    initializationCallback: render,
+    searchCallbacks: {
+      image: {
+        // Only how many results came back is read, to try again or tell the app that nothing was found.
+        ready: function (name, q, promos, results) {
+          const count = (results || []).length;
+          if (count === 0 && transparent) { transparent = false; setTimeout(render, 0); return; }
+          if (count === 0 && window.aparadorNextEngine(q)) return;
+          if (window.AparadorPage) window.AparadorPage.searched(count);
+        },
+      },
+    },
+  };
+</script>
+<script>
+  // The engines for this search, in order (engines.json, made by engines.py): Mexico's engines holding a brand the
+  // search is about, then the engines of the market a scanned code was registered in (?market=: "europe", "us"…),
+  // then Mexico's engine for the product's type (?type=), then the default. When one finds nothing, the page moves
+  // on to the next (?engine=). Each engine searches up to 50 brand sites.
+  function plain(text) { return ' ' + text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim() + ' '; }
+  let next = null;
+  // [q]: what was searched, which may be the seller's own words typed in Google's box.
+  window.aparadorNextEngine = function (q) {
+    if (!next) return false;
+    const url = new URL(location.href);
+    url.searchParams.set('engine', next.id);
+    if (q) url.searchParams.set('q', q);
+    location.replace(url.toString());
+    return true;
+  };
+  fetch('engines.json', { cache: 'no-cache' }).then(function (response) { return response.json(); }).then(function (config) {
+    const usable = config.engines.filter(function (engine) { return engine.cx; });
+    // The brands this search is about: named in it, or (for a scanned code) guessed from the code's company (?brands=).
+    const words = plain((params.get('q') || '') + ' ' + (params.get('brands') || '').split(',').join(' '));
+    const type = params.get('type');
+    const market = params.get('market');
+    const holds = function (e) { return e.brands.some(function (b) { return words.indexOf(plain(b.name)) >= 0; }); };
+    // Mexico's engines first, then those of the market the code was registered in, then the default.
+    const order = usable.filter(function (e) { return (e.market || 'mx') === 'mx' && holds(e); })
+      .concat(usable.filter(function (e) { return market && e.market === market && holds(e); }))
+      .concat(usable.filter(function (e) { return market && e.market === market && !holds(e); }))
+      .concat(type ? usable.filter(function (e) { return (e.market || 'mx') === 'mx' && e.types.indexOf(type) >= 0; }) : [])
+      .concat(usable.filter(function (e) { return e.id === config.default; }))
+      .filter(function (e, i, all) { return all.indexOf(e) === i; });
+    if (!order.length) order.push(usable[0]);
+    const at = Math.max(0, order.findIndex(function (e) { return e.id === params.get('engine'); }));
+    const engine = order[at];
+    next = order[at + 1] || null;
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://cse.google.com/cse.js?cx=' + encodeURIComponent(engine.cx);
+    document.head.appendChild(script);
+  });
+</script>
+</head>
+<body><div id="search"></div></body>
+</html>
